@@ -261,6 +261,7 @@ margin:0 0 0 35px;
 
 .about-item{
     background-color:white;
+    height:400px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding-bottom:5px;
     margin-bottom:5px;
