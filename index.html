@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona Hanna</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/radios.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <h1>PROSZĘ CZEKAJ...</h1>
+        <div id="status"><div class="lds-heart"><div></div></div></div> <!-- no whitespace corrector-->
+    </div>
+
+    <!--navbar-->
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
+                    <div class="navbar-header">
+                        <a href="home" class="navbar-brand"><img src="./resource/logo-chmurka-transparent.svg" alt="logo">
+                        </a></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--home-->
+    <section id='home' >
+
+        <video id='home-bg-video' poster="resource/2PxpGQb.jpg" autoplay loop>
+            <source src="resource/Blurry_Vision_4K_Motion_Background_Loop.mp4" type="video/mp4">
+        </video>
+        <!-- overlay-->
+        <div id="home-overlay"></div>
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+
+                    <h1 id="home-heading-1">
+                        HANNA ŚWIDA
+                    </h1>
+                    <h1 id="home-heading-2">
+                        WITAJ NA MOJEJ STRONIE!
+                    </h1>
+
+                </div>
+
+                <div id="home-text">
+                    <p></p>
+                </div>
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#" role="button">Zaczynamy!</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" id="arrow-down">
+            <i class="fa fa-angle-down"></i>
+        </a>
+
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <!--about part 1-->
+        <div id="about-01">
+            <div class="content-box-lg">
+
+                <div class="container">
+                    <div class="row">
+                        <!--about left side-->
+                        <div class="col-md-6">
+                            <div id="about-left">
+
+                                <div class="vertical-heading">
+                                    <h5>Kim ja jestem</h5>
+                                    <h2>Moja <br><strong>Historia</strong></h2>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!--about right side-->
+                        <div class="col-md-6">
+                            <div id="about-right">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Corporis cum cumque dolorum, error mollitia nam nemo possimus
+                                    quidem quis quisquam ratione rem reprehenderit sed temporibus vero!
+                                    Deserunt molestiae odit quo.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consectetur consequuntur cumque, eaque est excepturi in ipsa
+                                    libero nostrum nulla obcaecati
+                                    quisquam totam ullam veritatis. Amet explicabo magnam modi perspiciatis quo!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- about bottom-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="about-bottom">
+                                <img src="resource/girl.png" alt="about" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--counters -->
+
+        <section id="stats">
+            <div class="content-box-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="vertical-heading">
+                                <h2>Statystyki</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="stats-item text-center">
+                                <i class="fas fa-dove"></i>
+                                <h3 id="counter-1">0</h3>
+                                <p>Lat życia</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-item text-center">
+                                <i class="fa fa-trophy"></i>
+                                <h3 id="counter-2">0</h3>
+                                <p>Rok studiów </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-item text-center">
+                                <i class="fas fa-heartbeat"></i>
+                                <h3 id="counter-3">0</h3>
+                                <p>Godzin na stronę</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-item text-center">
+                                <i class="fas fa-burn"></i>
+                                <h3 id="counter-4">0</h3>
+                                <p>LVL ambicji</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--about 02-->
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fas fa-baby"></i>
+                                <h3>Wtedy...</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                    architecto, autem delectus distinctio dolores doloribus ipsa magni maiores
+                                    nesciunt reiciendis temporibus voluptates! At blanditiis, eveniet explicabo itaque numquam vero voluptatem.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fas fa-child"></i>
+                                <h3>...Teraz...</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                    architecto, autem delectus distinctio dolores doloribus ipsa magni maiores
+                                    nesciunt reiciendis temporibus voluptates! At blanditiis, eveniet explicabo itaque numquam vero voluptatem.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fas fa-atom"></i>
+                                <h3>...Potem!</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                    architecto, autem delectus distinctio dolores doloribus ipsa magni maiores
+                                    nesciunt reiciendis temporibus voluptates! At blanditiis, eveniet explicabo itaque numquam vero voluptatem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#bars">
+        <div class="content-box-lg1">
+            <div class="container">
+                <div id="progress-elements">
+                    <!-- bars -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!--Skill1-->
+                            <div class="skill">
+                                <h4>Photoshop/Illustrator</h4>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                         role="progressbar" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="100"
+                                         style="width: 0%"><span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!--Skill2-->
+                            <div class="skill">
+                            <h4>Junior Front End level</h4>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                     role="progressbar" aria-valuenow="60"  aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 0%"><span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!--Skill3-->
+                            <div class="skill">
+                                <h4>Zapał</h4>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                         role="progressbar" aria-valuenow="100"  aria-valuemin="0" aria-valuemax="100"
+                                         style="width: 0%; background-color:purple;"><span>100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        <div class="col-md-6">
+                            <!--Skill4-->
+                            <div class="skill">
+                            <h4>Chęci</h4>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                         role="progressbar" aria-valuenow="100"  aria-valuemin="0" aria-valuemax="100"
+                                         style="width: 0%">
+                                        <span>100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="parallax">
+        <div class="content-box-lg2">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="question" class=" text-center">
+                        <h2>
+                            Czy parallaxa jest jeszcze modna?
+                        </h2>
+                    </div>
+                    <div class="form-wrapper text-center">
+                        <form action="">
+                            <label for="choice-1">
+                                <input type="radio" id="choice-1" name="choice" value="" />
+                                <h3>
+                                    Nie, zostawmy to w 2013
+                                    <span>Aw :(</span>
+                                </h3>
+                            </label>
+
+                            <label for="choice-2">
+                                <input type="radio" id="choice-2" name="choice" value="" />
+                                <h3>
+                                    Nie dotykaj mojej parallaxy!
+                                    <span>Dziunia, nie jesteś moim szefem</span>
+                                 </h3>
+                            </label>
+                        </form>
+                    </div> <!-- .form-wrapper -->
+                </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="contact-left">
+                            <div class="vertical-heading">
+                                <h5>Kontakt</h5>
+                                <h2>Napisz Do <br><b>Mnie</b></h2>
+                            </div>
+                            <div id="address">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>Klasyczne formy komunikacji:</h4>
+                                        <ul class="address-details">
+                                            <li><i class="fa fa-mobile"></i>661-129-995</li>
+                                            <li><i class="fas fa-envelope-open-text"></i>hanna.swida@gmail.com</li>
+                                            <li><i class="fa fa-map-marker"></i>Gdańsk Polska Gdzieś</li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="contact-right">
+                            <form>
+                                <h4>Wyślij mi wiadomość</h4>
+                                <p>HALO</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" placeholder="Imię i nazwisko">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phone" placeholder="Telefon">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="temat" placeholder="Temat">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="text-area" class="form-control" placeholder=
+                                            "Wpisz treść wiadomości"></textarea>
+                                </div>
+                                <div id="submit-btn">
+                                    <a class="btn btn-general btn-purp ripple" role="button" title="Wyślij"
+                                       href="">Wyślij</a>
+                                </div>
+                                </form>
+                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+    <section>
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                     <div class="col-md-12">
+                         <p>
+                             Copyright &copy; 2019 All rights reserved By  <b>Hanna Świda</b>
+                         </p>
+                     </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="js/waypoints/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
