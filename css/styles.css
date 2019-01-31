@@ -100,16 +100,6 @@ section{
         transform: scale(0.9);
     }
 }
-/*NAVBAR*/
-.navbar-brand img{
-    max-width: 100px;
-}
-.navbar-header a{
-    color:white;
-}
-.navbar-header a:hover{
-    color:white;
-}
 
 
 /*HOME*/
