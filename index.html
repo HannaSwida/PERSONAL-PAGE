@@ -15,7 +15,7 @@
 
 <body>
 
-    <!-- PRELOADER -->
+    PRELOADER
     <div id="preloader">
         <h1>PROSZĘ CZEKAJ...</h1>
         <div id="status"><div class="lds-heart"><div></div></div></div> <!-- no whitespace corrector-->
@@ -33,14 +33,16 @@
         <div id="home-content">
             <div id="home-content-inner" class="text-center">
                 <div id="home-heading">
-
                     <h1 id="home-heading-1">
-                        HANNA ŚWIDA
+                        <div id="typed-strings"><p>HANNA ŚWIDA</p></div>
+                        <span id="typed"></span>
                     </h1>
+                    <br>
                     <h1 id="home-heading-2">
-                        WITAJ NA MOJEJ STRONIE!
+                        <div id="typed-strings1"><p color="white">Witaj na mojej stronie!</p>
+                        <strong><3</strong><p color="white">Witaj na mojej stronie!</p></div>
+                        <span style="color:white;" id="typed1"></span>
                     </h1>
-
                 </div>
 
                 <div id="home-text">
@@ -81,14 +83,10 @@
                         <!--about right side-->
                         <div class="col-md-6">
                             <div id="about-right">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Corporis cum cumque dolorum, error mollitia nam nemo possimus
-                                    quidem quis quisquam ratione rem reprehenderit sed temporibus vero!
-                                    Deserunt molestiae odit quo.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Consectetur consequuntur cumque, eaque est excepturi in ipsa
-                                    libero nostrum nulla obcaecati
-                                    quisquam totam ullam veritatis. Amet explicabo magnam modi perspiciatis quo!</p>
+                                <p>Cześć! Oto historia mojego życia, jak nie chce się Tobie jej czytać,
+                                to po prostu jedź i dalej przez tę stronkę :)</p>
+                                <p>Lubię grać w planszówki, chodzić na koncerty jazzowe i na iść na kawę w Dolnym
+                                    Wrzeszczu. Od jakichś 3 dni lubię też front-end! </p>
                             </div>
                         </div>
                     </div>
@@ -163,9 +161,9 @@
                                 <i class="fas fa-baby"></i>
                                 <h3>Wtedy...</h3>
                                 <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                                    architecto, autem delectus distinctio dolores doloribus ipsa magni maiores
-                                    nesciunt reiciendis temporibus voluptates! At blanditiis, eveniet explicabo itaque numquam vero voluptatem.</p>
+                                <p>Zaczęłam przygodę z programowaniem niedawno, po całym życiu myślenia,
+                                że pójdę na ASP lub na Chiński. Zakładałam, że nie lubię front-endu przez nieudolne
+                                    próby nauczenia się go.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -173,9 +171,9 @@
                                 <i class="fas fa-child"></i>
                                 <h3>...Teraz...</h3>
                                 <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                                    architecto, autem delectus distinctio dolores doloribus ipsa magni maiores
-                                    nesciunt reiciendis temporibus voluptates! At blanditiis, eveniet explicabo itaque numquam vero voluptatem.</p>
+                                <p>Wszystko zmieniło się ok. tydzień temu, gdy dostałam ofertę rozmowy rekrutacyjnej w CSS/HTML/React. Panika, ale nie takie rzeczy się ogarniało, i
+                                tak oto powstała ta strona. Pierwsze divy powstawały w bólach, ale szybko
+                                zaczęło wszystko mieć sens. Hura! To nawet fajne, o ile nie ma się w tym czasie 2 egzaminów...</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -183,9 +181,9 @@
                                 <i class="fas fa-atom"></i>
                                 <h3>...Potem!</h3>
                                 <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                                    architecto, autem delectus distinctio dolores doloribus ipsa magni maiores
-                                    nesciunt reiciendis temporibus voluptates! At blanditiis, eveniet explicabo itaque numquam vero voluptatem.</p>
+                                <p>Chciałabym pójść trochę dalej we Front-end, podstawy załapane więc chcę zobaczyć pracę
+                                    nad realnym projektem... Od dłuższego czasu chcę iść na staż, ale brakowało mi odwagi.
+                                    I ogarnąć Reacta. Trochę już zaczynam!</p>
                             </div>
                         </div>
                     </div>
@@ -380,6 +378,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->

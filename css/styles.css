@@ -33,7 +33,7 @@ section{
 #preloader >h1{
     font-size:50px;
     text-align: center;
-    color: hotpink;
+    color: purple;
     margin-top:10vh;
     margin-left:3.5vw;
 }
@@ -60,7 +60,7 @@ section{
     position: absolute;
     width: 52px;
     height: 52px;
-    background: hotpink;
+    background: purple;
     animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .lds-heart div:after,
@@ -70,7 +70,7 @@ section{
     display: block;
     width: 52px;
     height: 52px;
-    background: hotpink;
+    background: purple;
 }
 .lds-heart div:before {
     left: -34px;
@@ -171,6 +171,13 @@ section{
     font-size:60px;
     text-transform:lowercase;
 }
+#home-heading-2 span{
+    font-weight:100;
+    font-family: 'Major Mono Display', monospace;
+    font-size:60px;
+    text-transform:lowercase;
+    color:white;
+}
 #home-text p{
     color:white;
     font-size:20px;
@@ -190,6 +197,7 @@ a.btn-general {
 }
 a.btn-home{
     color:white;
+    animation: slide1 1s ease-in-out infinite;
     border:1px solid #fff;
 }
 a.btn-home:hover, a.btn-home:focus{
@@ -201,7 +209,8 @@ a.btn-home:hover, a.btn-home:focus{
 /*ARROW DOWN*/
 #arrow-down{
     position:absolute;
-    left:50%;
+    left:51%;
+    animation: slide1 3s ease-in-out infinite;
     bottom:5%;
     color:white;
     font-size:32px;
