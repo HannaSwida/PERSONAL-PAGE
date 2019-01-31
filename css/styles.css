@@ -104,8 +104,8 @@ section{
 
 /*HOME*/
 #home{
-    background:none;
     height:100%;
+    background:url("/resource/2PxpGQb.jpg") no-repeat;
 }
 #home-bg-video{
     position:fixed;
@@ -115,7 +115,6 @@ section{
     width:auto;
     height:auto;
     z-index:-1;
-    background:url("/resource/2PxpGQb.jpg") no-repeat;
     background-size:cover;
 }
 #home-overlay{

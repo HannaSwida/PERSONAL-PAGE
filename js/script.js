@@ -61,3 +61,11 @@ $(function() {
 
 });
 
+$(document).ready(function() {
+    $('.btn-purp').click(function() {
+        $('form').attr('action',
+            'mailto:hanna.swida@gmail.com?subject=' +
+            $('#temat').val() +' '+ $('#name').val() + '&body=' + $('textarea').val());
+        $('form').submit();
+    });
+});
